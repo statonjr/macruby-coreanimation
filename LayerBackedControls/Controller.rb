@@ -13,11 +13,12 @@ class Controller < NSObject
   end
   
   def rotateButton(sender)
-    
+    rotation = rotatingButton.frameCenterRotation
+    rotatingButton.setFrameCenterRotation(rotation + 15.0)
   end
   
   def beep(sender)
-    
+    NSBeep()
   end
   
 end
