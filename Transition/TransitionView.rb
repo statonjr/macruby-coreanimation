@@ -4,10 +4,16 @@
 # Created by Larry Staton Jr. on 8/5/10.
 # Copyright 2010 Sweetpea Software. All rights reserved.
 
+# Set constants from CAAnimation.h for transitions
+KCATransitionMoveIn = "moveIn"
+KCATransitionFromBottom = "fromBottom"
+
 class TransitionView < NSView
   
   def initWithFrame(frame)
     super
+    # Change the default animation
+    self.animations = NSDictionary.dictionaryWithObject(self.moveInFromBottomAnimation, forKey:"subviews")
     self.addSubview(self.beach)
   end
 
@@ -43,6 +49,15 @@ class TransitionView < NSView
     imageView.setImageScaling NSScaleToFit
     imageView.setImage(NSImage.imageNamed(imageName))
     return imageView
+  end
+  
+  # Changes the default animation from cross-fade to move in.
+  def moveInFromBottomAnimation
+    trans = CATransition.animation
+    trans.setType(KCATransitionMoveIn)
+    trans.setSubtype(KCATransitionFromBottom)
+    trans.duration = 2.0
+    return trans
   end
   
 end
