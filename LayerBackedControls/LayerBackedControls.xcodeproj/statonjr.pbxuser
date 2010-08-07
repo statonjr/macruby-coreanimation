@@ -1,0 +1,78 @@
+// !$*UTF8*$!
+{
+	172754BD107597F200D0347B /* Unit Tests */ = {
+		activeExec = 0;
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = C9F8E51A120E20FC002FD943 /* LayerBackedControls */;
+		activeTarget = 8D1107260486CEB800E47090 /* LayerBackedControls */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* LayerBackedControls */,
+		);
+		codeSenseManager = C9F8E51F120E211B002FD943 /* Code sense */;
+		executables = (
+			C9F8E51A120E20FC002FD943 /* LayerBackedControls */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 302915836;
+			PBXWorkspaceStateSaveDate = 302915836;
+		};
+		sourceControlManager = C9F8E51E120E211B002FD943 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	4D1A51A110A4FF5D0046A98A /* Compile */ = {
+		activeExec = 0;
+	};
+	4D1A51A510A4FF640046A98A /* Embed */ = {
+		activeExec = 0;
+	};
+	8D1107260486CEB800E47090 /* LayerBackedControls */ = {
+		activeExec = 0;
+		executables = (
+			C9F8E51A120E20FC002FD943 /* LayerBackedControls */,
+		);
+	};
+	C9F8E51A120E20FC002FD943 /* LayerBackedControls */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = LayerBackedControls;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	C9F8E51E120E211B002FD943 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	C9F8E51F120E211B002FD943 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
