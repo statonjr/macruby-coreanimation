@@ -15,8 +15,34 @@
 			C9F8E51A120E20FC002FD943 /* LayerBackedControls */,
 		);
 		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
 			PBXPerProjectTemplateStateSaveDate = 302915836;
 			PBXWorkspaceStateSaveDate = 302915836;
+		};
+		perUserProjectItems = {
+			C9F8E536120E26AE002FD943 /* PBXTextBookmark */ = C9F8E536120E26AE002FD943 /* PBXTextBookmark */;
+			C9F8E537120E26AE002FD943 /* PBXTextBookmark */ = C9F8E537120E26AE002FD943 /* PBXTextBookmark */;
 		};
 		sourceControlManager = C9F8E51E120E211B002FD943 /* Source Control */;
 		userBuildSettings = {
@@ -50,6 +76,7 @@
 		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -57,6 +84,8 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = LayerBackedControls;
+		savedGlobals = {
+		};
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
@@ -74,5 +103,32 @@
 	C9F8E51F120E211B002FD943 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	C9F8E522120E2156002FD943 /* Controller.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 322}}";
+			sepNavSelRange = "{472, 0}";
+			sepNavVisRange = "{0, 427}";
+		};
+	};
+	C9F8E536120E26AE002FD943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C9F8E522120E2156002FD943 /* Controller.rb */;
+		name = "Controller.rb: 24";
+		rLen = 0;
+		rLoc = 360;
+		rType = 0;
+		vrLen = 342;
+		vrLoc = 0;
+	};
+	C9F8E537120E26AE002FD943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C9F8E522120E2156002FD943 /* Controller.rb */;
+		name = "Controller.rb: 25";
+		rLen = 0;
+		rLoc = 472;
+		rType = 0;
+		vrLen = 427;
+		vrLoc = 0;
 	};
 }
