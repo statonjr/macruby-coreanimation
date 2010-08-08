@@ -1,0 +1,85 @@
+// !$*UTF8*$!
+{
+	172754BD107597F200D0347B /* Unit Tests */ = {
+		activeExec = 0;
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = C9F8E562120F2DE0002FD943 /* BackgroundFilteredView */;
+		activeTarget = 8D1107260486CEB800E47090 /* BackgroundFilteredView */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* BackgroundFilteredView */,
+		);
+		codeSenseManager = C9F8E568120F2DFE002FD943 /* Code sense */;
+		executables = (
+			C9F8E562120F2DE0002FD943 /* BackgroundFilteredView */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 302984672;
+			PBXWorkspaceStateSaveDate = 302984672;
+		};
+		sourceControlManager = C9F8E567120F2DFE002FD943 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	4D1A51A110A4FF5D0046A98A /* Compile */ = {
+		activeExec = 0;
+	};
+	4D1A51A510A4FF640046A98A /* Embed */ = {
+		activeExec = 0;
+	};
+	4DE339F60D74FCDD00ADB6EE /* rb_main.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 364}}";
+			sepNavSelRange = "{298, 0}";
+			sepNavVisRange = "{0, 533}";
+		};
+	};
+	8D1107260486CEB800E47090 /* BackgroundFilteredView */ = {
+		activeExec = 0;
+		executables = (
+			C9F8E562120F2DE0002FD943 /* BackgroundFilteredView */,
+		);
+	};
+	C9F8E562120F2DE0002FD943 /* BackgroundFilteredView */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = BackgroundFilteredView;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	C9F8E567120F2DFE002FD943 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	C9F8E568120F2DFE002FD943 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
