@@ -1,0 +1,152 @@
+// !$*UTF8*$!
+{
+	172754BD107597F200D0347B /* Unit Tests */ = {
+		activeExec = 0;
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = C9F8E5E112108E85002FD943 /* FilteredView */;
+		activeTarget = 8D1107260486CEB800E47090 /* FilteredView */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* FilteredView */,
+		);
+		codeSenseManager = C9F8E5EC12108E90002FD943 /* Code sense */;
+		executables = (
+			C9F8E5E112108E85002FD943 /* FilteredView */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					675,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 303074949;
+			PBXWorkspaceStateSaveDate = 303074949;
+		};
+		perUserProjectItems = {
+			C9F8E6251210A503002FD943 /* PBXTextBookmark */ = C9F8E6251210A503002FD943 /* PBXTextBookmark */;
+			C9F8E6261210A503002FD943 /* PBXTextBookmark */ = C9F8E6261210A503002FD943 /* PBXTextBookmark */;
+			C9F8E6271210A503002FD943 /* PBXTextBookmark */ = C9F8E6271210A503002FD943 /* PBXTextBookmark */;
+		};
+		sourceControlManager = C9F8E5EB12108E90002FD943 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	4D1A51A110A4FF5D0046A98A /* Compile */ = {
+		activeExec = 0;
+	};
+	4D1A51A510A4FF640046A98A /* Embed */ = {
+		activeExec = 0;
+	};
+	4DE339F60D74FCDD00ADB6EE /* rb_main.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {853, 429}}";
+			sepNavSelRange = "{288, 0}";
+			sepNavVisRange = "{0, 667}";
+		};
+	};
+	8D1107260486CEB800E47090 /* FilteredView */ = {
+		activeExec = 0;
+		executables = (
+			C9F8E5E112108E85002FD943 /* FilteredView */,
+		);
+	};
+	C9F8E5E112108E85002FD943 /* FilteredView */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = FilteredView;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	C9F8E5EB12108E90002FD943 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	C9F8E5EC12108E90002FD943 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C9F8E5F512108F04002FD943 /* FilteredView.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {853, 1078}}";
+			sepNavSelRange = "{1714, 0}";
+			sepNavVisRange = "{35, 1001}";
+		};
+	};
+	C9F8E6251210A503002FD943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4DE339F60D74FCDD00ADB6EE /* rb_main.rb */;
+		name = "rb_main.rb: 13";
+		rLen = 0;
+		rLoc = 288;
+		rType = 0;
+		vrLen = 667;
+		vrLoc = 0;
+	};
+	C9F8E6261210A503002FD943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C9F8E5F512108F04002FD943 /* FilteredView.rb */;
+		name = "FilteredView.rb: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 135;
+		vrLoc = 0;
+	};
+	C9F8E6271210A503002FD943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C9F8E5F512108F04002FD943 /* FilteredView.rb */;
+		name = "FilteredView.rb: 62";
+		rLen = 0;
+		rLoc = 1714;
+		rType = 0;
+		vrLen = 1001;
+		vrLoc = 35;
+	};
+}
